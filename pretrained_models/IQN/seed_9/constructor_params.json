@@ -1,0 +1,1 @@
+{"self_dimension": 4, "static_dimension": 15, "dynamic_dimension": 20, "self_feature_dimension": 32, "static_feature_dimension": 120, "dynamic_feature_dimension": 160, "hidden_dimension": 156, "action_size": 9, "seed": 109}
