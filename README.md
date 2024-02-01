@@ -2,6 +2,10 @@
 
 This repository contains the code implementation of our Distributional Reinforcement Learning (Distributional RL) based decentralized multi-robot collision avoidance method for Autonomous Surface Vehicles, which can work safely in congested waters with unknown current disturbances. Each vehicle equipped with the trained agent makes independent action decisions based on (1) ego observation of surrounding objects including static obstacles and other vehicles, and (2) level of risk sensitivity. 
 
+<p align="center">
+<img width="800" height="500" src="demonstration.png"> 
+</p>
+
 ## Train RL Agents
 
 Our proposed Distributional RL based policy model (IQN), and a traditional RL based model (DQN) used for comparison, can be trained by running the following command.   
