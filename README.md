@@ -1,6 +1,6 @@
 # Multi Robot Distributional RL Navigation
 
-This repository contains the code implementation of our ICRA 2024 paper [here](https://arxiv.org/abs/2402.11799). We proposed a Distributional Reinforcement Learning (Distributional RL) based decentralized multi-robot collision avoidance method for Autonomous Surface Vehicles, which can work safely in congested waters with unknown current disturbances. Each vehicle equipped with the trained agent makes independent action decisions based on (1) ego observation of surrounding objects including static obstacles and other vehicles, and (2) level of risk sensitivity. 
+This repository contains the code implementation of our ICRA 2024 paper [here](https://arxiv.org/abs/2402.11799). We proposed a Distributional Reinforcement Learning (Distributional RL) based decentralized multi-robot collision avoidance method for Autonomous Surface Vehicles, which can work safely in congested waters with unknown current disturbances. Each vehicle equipped with the trained agent makes independent action decisions based on (1) ego observation of surrounding objects including static obstacles and other vehicles, and (2) level of risk sensitivity. The performance of our approach is shown in the video [here](https://robustfieldautonomylab.github.io/Lin_ICRA24_Video.mp4)
 
 <p align="center">
 <img width="800" height="500" src="demonstration.png"> 
