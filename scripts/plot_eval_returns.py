@@ -9,7 +9,8 @@ if __name__ == "__main__":
     seeds = [9]
     eval_agents = ["IQN","DQN"]
     colors = ["b","tab:orange"]
-    data_dirs = ["../pretrained_models/IQN","../pretrained_models/DQN"]
+    data_dirs = ["your/IQN/training/evaluation/file/directory",
+                 "your/DQN/training/evaluation/file/directory"]
 
     fig, (ax_rewards,ax_success_rate) = plt.subplots(1,2,figsize=(16,6))
     
