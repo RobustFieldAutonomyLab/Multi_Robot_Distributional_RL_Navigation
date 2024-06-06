@@ -354,13 +354,13 @@ class Trainer():
         
         np.savez(
             os.path.join(eval_log_path,filename),
-            timesteps=self.eval_timesteps,
-            actions=self.eval_actions,
-            trajectories=self.eval_trajectories,
-            rewards=self.eval_rewards,
-            successes=self.eval_successes,
-            times=self.eval_times,
-            energies=self.eval_energies,
-            obs=self.eval_obs,
-            objs=self.eval_objs
+            timesteps=np.array(self.eval_timesteps,dtype=object),
+            actions=np.array(self.eval_actions,dtype=object),
+            trajectories=np.array(self.eval_trajectories,dtype=object),
+            rewards=np.array(self.eval_rewards,dtype=object),
+            successes=np.array(self.eval_successes,dtype=object),
+            times=np.array(self.eval_times,dtype=object),
+            energies=np.array(self.eval_energies,dtype=object),
+            obs=np.array(self.eval_obs,dtype=object),
+            objs=np.array(self.eval_objs,dtype=object)
         )

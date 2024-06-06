@@ -23,9 +23,9 @@ if __name__ == "__main__":
         print(f"===== Plotting {eval_agent} results =====")
         for seed in seeds:
             seed_dir = "seed_"+str(seed)
-            eval_data = np.load(os.path.join(data_dirs[idx],seed_dir,"evaluations.npz")) # DQN
+            eval_data = np.load(os.path.join(data_dirs[idx],seed_dir,"evaluations.npz"),allow_pickle=True)
 
-            timesteps = eval_data['timesteps']
+            timesteps = np.array(eval_data['timesteps'],dtype=np.float64)
             rewards = np.mean(eval_data['rewards'],axis=1)
             success_rates = []
             for i in range(len(eval_data['timesteps'])):
@@ -37,7 +37,7 @@ if __name__ == "__main__":
             else:
                 DQN_final.append(success_rates[-1])
 
-            all_rewards.append(rewards)
+            all_rewards.append(rewards.tolist())
             all_success_rates.append(success_rates)
 
         all_rewards_mean = np.mean(all_rewards,axis=0)
