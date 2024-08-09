@@ -6,6 +6,19 @@ This repository contains the code implementation of our ICRA 2024 paper [here](h
 <img width="800" height="500" src="demonstration.png"> 
 </p>
 
+If you find this repository useful, please cite our paper
+```
+@INPROCEEDINGS{10611668,
+  author={Lin, Xi and Huang, Yewei and Chen, Fanfei and Englot, Brendan},
+  booktitle={2024 IEEE International Conference on Robotics and Automation (ICRA)}, 
+  title={Decentralized Multi-Robot Navigation for Autonomous Surface Vehicles with Distributional Reinforcement Learning}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={8327-8333},
+  doi={10.1109/ICRA57147.2024.10611668}}
+```
+
 ## Train RL Agents
 
 Our proposed Distributional RL based policy model (IQN), and a traditional RL based model (DQN) used for comparison, can be trained by running the following command. You can also skip this training section and run experiments with the provided pretrained models.  
