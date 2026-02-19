@@ -9,7 +9,7 @@
         "num_cooperative":[3,5,7,7,7,7],
         "num_non_cooperative":[0,0,0,0,0,0],
         "num_cores":[4,6,8,8,8,8],
-        "num_obstacles":[0,0,0,6,8,10],
+        "num_obstacles":[0,0,2,4,6,8],
         "min_start_goal_dis":[30.0,35.0,40.0,40.0,40.0,40.0]
     },
     "eval_schedule":
@@ -18,7 +18,7 @@
         "num_cooperative": [3,5,7,3,5,7], 
         "num_non_cooperative": [0,0,0,0,0,0], 
         "num_cores": [4,6,8,4,6,8], 
-        "num_obstacles": [0,0,0,6,8,10], 
+        "num_obstacles": [0,0,0,4,6,8], 
         "min_start_goal_dis": [40.0,40.0,40.0,40.0,40.0,40.0]
     },
     "use_iqn":true
